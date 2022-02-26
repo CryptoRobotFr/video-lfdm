@@ -4,6 +4,7 @@ vertclaire='\e[1;32m'
 neutre='\e[0;m'
 
 echo -e "${vertclaire}Intallation des prérequies${neutre}"
+apt-get update
 apt-get install python3.8 -y
 update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1
 update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 2
