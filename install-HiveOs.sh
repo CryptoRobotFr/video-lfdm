@@ -9,6 +9,7 @@ update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1
 update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 2
 apt-get install python3.8-venv -y
 apt-get install python3-pip -y
+apt install python-pip
 python3 -m venv /env/
 
 
