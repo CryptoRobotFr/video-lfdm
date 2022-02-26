@@ -17,8 +17,8 @@ python3 -m venv /env/
 echo -e "${vertclaire}Installation du bot${neutre}"
 cd /home/user/video-lfdm/
 source /env/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
+python3 -m pip install --upgrade pip
+python3 -m pip install -r requirements.txt
 deactivate
 
 echo -e "${vertclaire}Création du fichier log${neutre}"
